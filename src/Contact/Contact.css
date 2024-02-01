@@ -1,0 +1,48 @@
+.Contact{
+  background-color: black;
+  color: lavender;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top:16rem;
+}
+.Contactus span{
+  font-size: 24px;
+  text-align: justify !important;
+  text-transform: uppercase;
+  margin-left:-67rem;
+}
+.Contactus img{
+  margin-top: 1rem;
+  width:2rem !important;
+}
+.github-img1 img{
+  width: 1.6rem !important;
+  margin-left: 5.5rem;
+}
+.linkedin-img{
+  margin-left: 2rem;
+}
+.email-img1{
+  margin-left: 2rem;
+}
+.contact-link{
+   display: flex;
+  flex-direction:row;
+}
+.Contactus p{
+  text-align: justify;
+  margin-left: 5.5rem;
+  font-size: 18px;
+}
+
+#logo-img img:hover{
+    width: 4rem;
+    color: aquamarine;
+    animation:logotransform 2s ease-in-out;
+}
+@keyframes logotransform {
+  0%{
+    transform: scale(1);
+    box-shadow: 2px 2px 2px 2px red;
+  } 
+}

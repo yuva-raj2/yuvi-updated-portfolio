@@ -1,0 +1,101 @@
+.Project{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation: projectanime 40s ease-in;
+}
+@keyframes projectanime {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+.project{
+  display: flex;
+  flex-direction:column;
+  background:linear-gradient(rgba(15, 88, 70, 0.192),rgba(15, 88, 70, 0.192));
+  width: 35rem;
+  border-radius: 2rem;
+  margin-left: 3.5rem;
+  flex-wrap: wrap;
+}
+.Myprojects{
+color: black;
+text-align: justify;
+padding-bottom:2rem;
+}
+.Myprojects p{
+  font-size: 16px;
+  font-style:normal;
+  font-weight:540;
+  margin-left: 4rem;
+}
+.para p{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.Myprojects span,.Myprojects h2{
+margin-left: 4rem;
+font-size: 20px;
+}
+.Myprojects h3{
+position: relative;
+top:2rem;
+}
+.insta-clone-link,.island-resort-link,.skill-job-link,.landing-link,.todo-list-link,.calci-app-link{
+  color: lightseagreen;
+  text-align: justify;
+  text-decoration: unset;
+}
+.myprojects{
+  font-size: 30px !important;
+}
+.insta-clone-link:hover,
+.skill-job-link:hover,
+.landing-link:hover,
+.island-resort-link:hover,
+.calci-app-link:hover,
+.todo-list-link:hover{
+  background-color:lightseagreen;
+  border-radius: 30px;
+  color:white;
+  text-decoration: unset;
+  animation: jumpcontent 2s ease-in;
+}
+.projects-intern-submission-1,
+.projects-intern-submission-2,
+.projects-intern-submission-3,
+.projects-intern-submission-4{
+  display: flex;
+  flex-direction:row;
+  margin-bottom:2rem;
+  animation: projectanime 45s ease-in-out;
+}
+@keyframes jumpcontent {
+  0%{
+    transform: scale(0.9);
+  }
+}
+.survey-content-project,
+.island-content-project,
+.landing-content-project,
+.skill-content-project,
+.calci-content-project,
+.todo-list-content-project{
+  padding-right: 3rem !important;
+}
+.pro-image{
+  width:35rem;
+  border-radius: 2rem;
+}
+.insta-content-project,.portfolio-content-project{
+  padding-right: 3rem;
+  padding-left: 2rem;
+  text-align: justify;
+  justify-content: space-between;
+}
+.projects-intern-submission-1{
+  margin-top: 5rem;
+}
+.link-mini{
+  margin-left: 4rem;
+}
+

@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+body{
+  display: flex;
+  background: url("../src/Assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-wrap:wrap;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.background-color{
+  background-color:cornflowerblue;
+  animation:bgcolor 2s ease-in;
+  min-width:80rem;
+  max-width: 100%;
+}
+@keyframes bgcolor {
+  0%{
+      background-color: red;
+      transform: translateY(50px);
+      transform: scale(1.5);
+      opacity: 0;
+  }
+}
+.logo img{
+  width:3rem;
+  margin-left:5rem;
+}
+.github img{
+   margin-top: 8rem;
+}
+.logo img:hover{
+  width: 4rem;
+  margin-left:5rem;
+  color: aquamarine;
+  animation:logotransform 2s ease-in-out;
+}
+@keyframes logotransform {
+  0%{
+    transform: scale(1);
+    box-shadow: 2px 2px 2px 2px red;
+  } 
+}
+.linkedin img:hover{
+  width: 4rem;
+}
+.email img:hover{
+  width: 3.5rem;
+}
+.Activity{
+  color: black;
+  height: 20rem;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 1rem;
+  margin-right:34rem;
+  font-weight: bold;
+}
+.Activity span{
+  float: left;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.Activity p{
+  font-weight: lighter;
+  text-align: justify;
+  margin-left:5rem !important;
+}
+@media screen and (width:820px) {
+  .background-color{
+    height:100vh !important;
+  }
+}

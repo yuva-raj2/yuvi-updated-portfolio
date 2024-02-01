@@ -1,0 +1,78 @@
+#Skills{
+    color:black;
+    font-family:monospace;
+    font-style:normal;
+    animation: skillsanime 50s ease-in-out;
+}
+@keyframes skillsanime {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+}
+.skill-name{
+    display: flex;
+    flex-direction:row;
+    margin-left:32rem;
+    font-size: 1.5rem;
+    animation:skillsanime 10s !important;
+}
+.skill{
+    font-size:3rem;
+    margin-top: 5rem;
+}
+.CSS{
+    margin-left: 0.9rem;
+}
+.rating{
+    position: relative;
+    left: 10rem;
+}
+.js{
+    position: relative;
+    left:-4.9rem;
+}
+.react{
+    position: relative;
+    left:-2.42rem;
+}
+.django{
+    position: relative;
+    left: -2.42rem;
+}
+.vercel{
+    position: relative;
+    left:-1.5rem;
+}
+.c{
+    margin-left:34.5rem !important;
+}
+.C{
+    position: relative;
+    left:-2rem;
+}
+.cplus{
+    margin-left: 32.8rem;
+}
+.Cplus{
+    position:relative;
+    left:-2rem;
+}
+.figma{
+    margin-left:32.5rem;
+}
+.Figma{
+    position: relative;
+    left:-0.9rem;
+}
+.Antdesign{
+    position: relative;
+    left: -4rem;
+}
+.python{
+    margin-left: 30.2rem;
+}
+.Python{
+    position: relative;
+    left:-1.8rem;
+}

@@ -1,0 +1,38 @@
+.experience{
+    margin-top: 10rem;
+    color: black;
+    font-family: serif;
+}
+.intern-experiences{
+    display: flex;
+    margin-left:15rem;
+    font-size: 18px;
+}
+.bold-letter{
+    font-weight: bolder;
+}
+.dash-1{
+    margin-left:6rem;
+}
+.dash-2{
+    margin-left:1.8rem !important;
+}
+.dash-3{
+    margin-left: 7.2rem !important;
+}
+.dash-4{
+    margin-left:8.5rem !important;
+}
+.dash-5{
+    margin-left:6.5rem !important;
+}
+.dash-6{
+    margin-left:9rem !important;
+}
+.year-of-experience{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-left:5rem;
+    text-align: justify;
+}
